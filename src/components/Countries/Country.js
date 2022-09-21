@@ -12,14 +12,11 @@ const Country = () => {
     return (
         <div>
             <h1>Welcome to My Countries: {Countris.length}</h1>
-            {
+            {/* {
                 Countris.map(country => console.log(country))
-            }
+            } */}
             {
-                Countris.map(country => <Countri 
-                    country={country} 
-                    > 
-                    </Countri>)
+                Countris.map(country => <Countri country={country}></Countri>)
             }
         </div>
     );
