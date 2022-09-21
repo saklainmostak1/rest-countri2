@@ -16,7 +16,10 @@ const Country = () => {
                 Countris.map(country => console.log(country))
             }
             {
-                Countris.map(country => <Countri name={country.name.common} population={country.population} area={country.area}></Countri>)
+                Countris.map(country => <Countri 
+                    country={country} 
+                    > 
+                    </Countri>)
             }
         </div>
     );
